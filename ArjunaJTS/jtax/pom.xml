@@ -593,5 +593,14 @@
               </plugins>
           </build>
      </profile>
+     <profile>
+      <id>jdk11</id>
+      <activation>
+        <jdk>[11,)</jdk>
+      </activation>
+      <properties>
+        <idlj.boot.args/>
+      </properties>
+    </profile>
   </profiles>
 </project>
